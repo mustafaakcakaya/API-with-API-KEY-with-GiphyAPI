@@ -6,7 +6,7 @@ request.onload = function () {
     var response = request.response;
     var parsedData = JSON.parse(response);
     console.log(parsedData);
-    var originalUrl = parsedData.data.url;
+    var originalUrl = parsedData.data.images.original.url;
     console.log(originalUrl);
 
 
